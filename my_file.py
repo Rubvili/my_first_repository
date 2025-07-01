@@ -1,5 +1,4 @@
-print('This is a file in repository GitHub')
-
-print('New changes')
-
-print('Еще изменения')
+def say_something(number: int, word: str) -> str:
+    # word = word.capitalize()
+    word = word.capitalize()
+    return word * number
